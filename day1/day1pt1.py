@@ -11,7 +11,7 @@ def main():
     logger.info(f"Day {day} part {part}")
     # load input
     increased = 0
-    with open("day" + day + "input.txt", "r") as inputFile:
+    with open("day" + day + "\\day" + day + "input.txt", "r") as inputFile:
         prev_line = int(inputFile.readline())
 
         for line in inputFile.readlines():
