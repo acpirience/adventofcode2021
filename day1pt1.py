@@ -8,7 +8,7 @@ def main():
     day = "1"
     part = "1"
 
-    logger.info("Day " + day)
+    logger.info(f"Day {day} part {part}")
     # load input
     increased = 0
     with open("day" + day + "input.txt", "r") as inputFile:
