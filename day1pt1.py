@@ -21,7 +21,7 @@ def main():
 
             prev_line = line
 
-    logger.info(f"Day {day} part {part} result: " + str(increased))
+    logger.info(f"Day {day} part {part} result: {increased}")
 
 
 if __name__ == "__main__":
