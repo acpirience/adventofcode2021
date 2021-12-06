@@ -35,7 +35,7 @@ def main():
     logger.info(f"Day {day} part {part}")
 
     # Ocean_floor is a 1000 * 1000 array
-    ocean_floor = [[0] * 1000 for i in range(1000)]
+    ocean_floor = [[0] * 1000 for _ in range(1000)]
 
     # load input
     with open("day" + day + "\\day" + day + "input.txt", "r") as inputFile:
