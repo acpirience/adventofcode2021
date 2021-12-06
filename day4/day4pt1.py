@@ -11,7 +11,6 @@ def main():
 
     logger.info(f"Day {day} part {part}")
 
-    drawn_numbers = []
     nb_cards = 0
     tmp_card = []
     card_list = []
