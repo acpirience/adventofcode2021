@@ -48,7 +48,7 @@ class Bingo:
             ):
                 return True
 
-    def calculate_Score(self, number):
+    def calculate_score(self, number):
         unmarked = 0
         for line in self.cells:
             for cell in line:

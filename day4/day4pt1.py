@@ -50,7 +50,7 @@ def main():
     logger.info(f"\n{winner}")
 
     logger.info(
-        f"Day {day} part {part} result: {winner.calculate_Score(number_winner)}"
+        f"Day {day} part {part} result: {winner.calculate_score(number_winner)}"
     )
 
 
