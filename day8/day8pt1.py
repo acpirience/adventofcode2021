@@ -1,10 +1,6 @@
 from loguru import logger
 
 
-def str_array_to_int(pt):
-    return [int(x) for x in pt]
-
-
 def main():
     """
     https://adventofcode.com/2021/day/8
